@@ -1,5 +1,16 @@
 # ImageToCaption_Encoder_Decoder
 
+
+
+| Image                      | Layer 1                             | Layer 2                             | Layer 3                             |
+| -------------------------- | ----------------------------------- | ----------------------------------- | ----------------------------------- |
+| ![Image 1](data/boat.png)  | ![Layer 1-1](data/pil_img_754.jpg)  | ![Layer 2-1](data/pil_img_214.jpg)  | ![Layer 3-1](data/pil_img_125.jpg)  |
+| ![Image 2](data/bus.png)   | ![Layer 1-2](data/pil_img_859.jpg)   | ![Layer 2-2](data/pil_img_381.jpg)   | ![Layer 3-2](data/)   |
+| ![Image 3](data/child.png) | ![Layer 1-3](data/pil_img_328.jpg) | ![Layer 2-3](data/pil_img_242.jpg) | ![Layer 3-3](data/pil_img_854.jpg) |
+| ![Image 4](data/dog.png)   | ![Layer 1-4](data/pil_img_204.jpg)   | ![Layer 2-4](data/pil_img_792.jpg)   | ![Layer 3-4](data/pil_img_858.jpg)   |
+| ![Image 5](data/horse.png) | ![Layer 1-5](data/pil_img_658.jpg) | ![Layer 2-5](data/pil_img_189.jpg) | ![Layer 3-5](data/pil_img_704.jpg) |
+
+
 | Image                                       | Reference Caption                           | Model 1                                          | Model 2                                      |
 |---------------------------------------------|---------------------------------------------|--------------------------------------------------|----------------------------------------------|
 | <img src="data/boat.png" width="100px">     | A small boat in the ocean .                 | a boat is sitting on a boat overlooking water     | a boat is sailing over the water             |
