@@ -1,6 +1,6 @@
-# ImageToCaption_Encoder_Decoder
+# Image Captioning 
 
-
+- using an **Encoder-Decoder** architecture with DINOv2 backbone and Transformer layer to generate captions. 
 
 | Image                      | Layer 1                             | Layer 2                             | Layer 3                             |
 | -------------------------- | ----------------------------------- | ----------------------------------- | ----------------------------------- |
