@@ -8,16 +8,24 @@
 | <img src="data/dog.png" width="100px">      | Dog on a beach by the ocean .               | a dog stands in front of a large body of water   | a brown dog stands on the sand near the ocean |
 | <img src="data/horse.png" width="100px">    | A cowboy riding a horse in the desert .     | two people walking on a sandy path               | two people are riding a horse on a mountain |
 
+# Encoder-Decoder Architecture
+$$
+\boxed{\textbf{ENCODER:}}
+\rightarrow
+\boxed{\text{Image}}
+\rightarrow
+\boxed{\text{DINOv2 spatial tokens}}
+$$
 
-  
-## BLEU Score 
-
-| Model | BLEU-1 | BLEU-2 | BLEU-3 | BLEU-4 |
-| ----- | ------ | ------ | ------ | ------ |
-| 1     | 0.6240 | 0.4439 | 0.3065 | 0.2074 |
-| 2     | 0.7035 | 0.5303 | 0.3884 | 0.2808 |
-
-
-![alt text](data/graph.png)
+$$
+\textbf{DECODER:}
+\boxed{\text{Word embeddings + Positional Encoding}}
+\rightarrow
+\boxed{\text{Self-Attention}}
+\rightarrow
+\boxed{\text{Cross-Attention Layers (Image Embeddings)}}
+\rightarrow
+\boxed{\textbf{Softmax}(\text{Word embeddings})}
+$$
 
 
