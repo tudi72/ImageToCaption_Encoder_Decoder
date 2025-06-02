@@ -1,69 +1,14 @@
 # ImageToCaption_Encoder_Decoder
 
+| Image                                      | Reference Caption                           | Model 1                                          | Model 2                                      |
+|--------------------------------------------|---------------------------------------------|--------------------------------------------------|----------------------------------------------|
+| ![Image](data/boat.png)                    | A small boat in the ocean .                 | a boat is sitting on a boat overlooking water     | a boat is sailing over the water             |
+| ![Image](data/bus.png)                     | Bus driving by parked cars .               | a group of people are walking down a street      | a bus is parked on a street                  |
+| ![Image](data/child.png)                   | Child holding red frisbee outdoors .        | a little boy in a red shirt is holding a toy frisbee | a young boy with a red frisbee in the grass |
+| ![Image](data/dog.png)                     | Dog on a beach by the ocean .               | a dog stands in front of a large body of water   | a brown dog stands on the sand near the ocean |
+| ![Image](data/horse.png)                   | A cowboy riding a horse in the desert .     | two people walking on a sandy path               | two people are riding a horse on a mountain |
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Image</th>
-      <th>Reference Caption</th>
-      <th>Model 1</th>
-      <th>Model 2</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>&lt;img src="data/boat.png"</td>
-      <td>A small boat in the ocean .</td>
-      <td>a boat is sitting on a boat overlooking water</td>
-      <td>a boat is sailing over the water</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>&lt;img src="data/bus.png"</td>
-      <td>Bus driving by parked cars .</td>
-      <td>a group of people are walking down a street</td>
-      <td>a bus is parked on a street</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>&lt;img src="data/child.png"</td>
-      <td>Child holding red frisbee outdoors .</td>
-      <td>a little boy in a red shirt is holding a toy w...</td>
-      <td>a young boy with a red frisbee in the grass</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>&lt;img src="data/dog.png"</td>
-      <td>Dog on a beach by the ocean .</td>
-      <td>a dog stands in front of a large body of water</td>
-      <td>a brown dog stands on the sand near the ocean</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>&lt;img src="data/horse.png"</td>
-      <td>A cowboy riding a horse in the desert .</td>
-      <td>two people walking on a sandy path</td>
-      <td>two people are riding a horse on a mountain</td>
-    </tr>
-  </tbody>
-</table>
-</div>
   
 ## BLEU Score 
 
